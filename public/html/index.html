@@ -6,11 +6,50 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <section>
-        <p id="temp"></p>
-        <p id="valeur"></p>
-        <p id="historique"></p>
-    </section>
-    <script src="../js/script.js"></script>
+    <div class="tabs">
+        <h3 id="tablist-1">
+            Onglets température
+        </h3>
+        <div role="tablist"
+             aria-labelledby="tablist-1"
+             class="manual">
+            <button id="tab-1"
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="tabpanel-1">
+      <span class="focus">
+        Capteur
+      </span>
+            </button>
+            <button id="tab-2"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="tabpanel-2"
+                    tabindex="-1">
+      <span class="focus">
+        Historique
+      </span>
+            </button>
+        <div id="tabpanel-1"
+             role="tabpanel"
+             aria-labelledby="tab-1">
+            <section aria-live="polite" role="alert">
+                <p aria-live="polite"   id="temp"></p>
+                <p aria-live="polite" role="alert" id="valeur"></p>
+            </section>
+        </div>
+        <div id="tabpanel-2"
+             role="tabpanel"
+             aria-labelledby="tab-2"
+             class="is-hidden">
+            <section aria-live="polite" role="alert">
+                <p aria-live="polite" role="alert" id="historique"></p>
+            </section>
+        </div>
+    </div>
+    </div>
+    <script type="module" src="../js/script.js"></script>
 </body>
 </html>
