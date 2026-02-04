@@ -32,7 +32,10 @@ export class Editor {
         this.events.subscribe('temperatureChange', alertListener);
 
         setInterval(() => {
-            this.events.notify('temperatureChange', { temperature: this.temperatures[this.currentIndex] });
+            this.events.notify('temperatureChange', {
+                temperature: this.temperatures[this.currentIndex],
+                timestamp: Math.floor(Date.now() / 1000)
+            });
             this.currentIndex++;
             if (this.currentIndex >= this.temperatures.length) {
                 this.currentIndex = 0;

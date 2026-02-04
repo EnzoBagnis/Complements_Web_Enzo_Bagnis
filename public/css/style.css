@@ -89,3 +89,59 @@
 [role="tabpanel"] p {
     margin: 0;
 }
+
+/* History table styles */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-table thead {
+    background: linear-gradient(180deg, rgb(36 116 214) 0%, rgb(28 90 170) 100%);
+    color: white;
+}
+
+.history-table th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.history-table tbody tr {
+    border-bottom: 1px solid hsl(219deg 1% 85%);
+    transition: background-color 0.2s ease;
+}
+
+.history-table tbody tr:hover {
+    background-color: hsl(219deg 20% 95%);
+}
+
+.history-table tbody tr:nth-child(even) {
+    background-color: hsl(220deg 43% 97%);
+}
+
+.history-table tbody tr:nth-child(even):hover {
+    background-color: hsl(219deg 20% 95%);
+}
+
+.history-table td {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: hsl(219deg 10% 30%);
+}
+
+.history-table td:first-child {
+    font-weight: 600;
+    color: rgb(36 116 214);
+}
+
+.history-table td:last-child {
+    color: hsl(219deg 10% 50%);
+    font-family: 'Courier New', monospace;
+}
+

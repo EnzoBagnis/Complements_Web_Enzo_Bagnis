@@ -1,0 +1,82 @@
+{
+  "capteurs": [
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "22",
+      "Timestamp": 1700000000
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "23",
+      "Timestamp": 1700000300
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "19",
+      "Timestamp": 1700000600
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "20",
+      "Timestamp": 1700000900
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "21",
+      "Timestamp": 1700001200
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "20",
+      "Timestamp": 1700001500
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "20",
+      "Timestamp": 1700001800
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "21",
+      "Timestamp": 1700002100
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "20",
+      "Timestamp": 1700002400
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "20",
+      "Timestamp": 1700002700
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "22",
+      "Timestamp": 1700003000
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "21",
+      "Timestamp": 1700003300
+    },
+    {
+      "type": "Thermique",
+      "Nom": "Interieur",
+      "Valeur": "20",
+      "Timestamp": 1700003600
+    }
+  ]
+}

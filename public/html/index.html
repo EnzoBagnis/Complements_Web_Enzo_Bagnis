@@ -45,7 +45,16 @@
              aria-labelledby="tab-2"
              class="is-hidden">
             <section aria-live="polite" role="alert">
-                <p aria-live="polite" role="alert" id="historique"></p>
+                <table id="historique" class="history-table">
+                    <thead>
+                        <tr>
+                            <th>Température</th>
+                            <th>Heure</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historique-body">
+                    </tbody>
+                </table>
             </section>
         </div>
     </div>
